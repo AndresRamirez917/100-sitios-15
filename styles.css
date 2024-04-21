@@ -37,49 +37,59 @@ a {
     overflow: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-#navbar a {
+  }
+  
+  #navbar a {
     color: #fff;
   }
-
-#navbar .logo{
+  
+  #navbar .logo {
     float: left;
-    padding: 20px;
+    padding-top: 16px;
     font-size: 30px;
     text-transform: uppercase;
-}
-
-#navbar ul {
-    float: right;
+  }
+  
+  #navbar ul {
     list-style: none;
-}
-
-#navbar ul li {
+    float: right;
+  }
+  
+  #navbar ul li {
     float: left;
-}
-
-#navbar ul li a {
+  }
+  
+  #navbar ul li a {
     display: block;
+    padding: 20px;
     text-align: center;
-    padding: 40px;
-}
+  }
+  
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+    text-decoration: underline;
+    color: red;
+  }
 
 /* showcase */
-#showcase .showcase-title {
+.showcase-title {
     margin-right: 600px;
     font-weight: lighter;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-#showcase .showcase-text {
+.showcase-text {
     margin-right: 600px;
    float: left;
    margin-bottom: 20px;
 }
 
-#showcase .card {
+.card-row {
+    padding-top: 20px;
+  }
+
+.card {
     float: left;
     width: 33%;
     height: 200px;
@@ -130,11 +140,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
-}
-
-.pers-miss-row img {
-    height: 300px;
+    padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .pers-miss-row-text-1 {
@@ -145,22 +152,30 @@ a {
 }
 
 .pers-miss-row-img-1 {
-    padding: 40px;
     float: right;
-    width: 40%;   
+    width: 40%;
+}
+
+.pers-miss-row-img-1 img{
+    height: 300px;
 }
 
 .pers-miss-row-text-2 {
     float: right;
-    width: 40%;
-    padding-top: 100px;
+    width: 60%;
+    padding-top: 200px;
+    padding-left: 90px;
 }
 
 .pers-miss-row-img-2 {
     float: left;
-    width: 60%;
+    width: 40%;
     padding-top: 200px;
-    padding-left: 90px;
+    
+}
+
+.pers-miss-row-img-2 img{
+    height: 300px;
     
 }
 
@@ -185,3 +200,36 @@ a {
   margin: 0 auto;
 }
 
+#contact {
+    background: #fc7303e5;
+}
+
+#contact form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    background: grey;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#footer {
+    padding: 30px;
+    background: #000;
+    text-align: center;
+}
