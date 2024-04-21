@@ -24,6 +24,10 @@ a {
     color: #fff;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 #mainheader {
     background: url("/img/showcase.jpg");
     background-position: center;
@@ -68,7 +72,6 @@ a {
   #navbar ul li a:hover,
   #navbar ul li a.current {
     text-decoration: underline;
-    color: red;
   }
 
 /* showcase */

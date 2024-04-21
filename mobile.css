@@ -8,7 +8,7 @@
 #navbar .logo{
     display: block;
     float: none;
-
+text-align: center;
 }
 
 #card-row {
@@ -84,3 +84,7 @@
     padding-left: 0px;
 }
 
+#contact form {
+    width: 80%;
+    margin: 0 auto;
+}
